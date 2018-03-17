@@ -1,0 +1,41 @@
+.display-task{
+	background-color: #FFC5C7;
+	/*color: #FF1D1D;*/
+	border-left:10px solid #FF0023;
+	min-height: 60px;
+}
+.title{
+	color: #FF4545;
+	text-align: left;
+    /*text-shadow:1px 1px #F1F1F1;*/
+	margin-left: 0.2%;
+}
+.description{
+	color: #868686;
+	font-size: 2.15vh;
+	text-align: left;
+	margin:2% 0.2% 0.2% 0.2%; 
+}
+.time{
+	font-size: 2vh;
+	margin-top: 1%;
+}
+.button-s{
+	border-radius:1%;
+	margin: 10% 0%;
+}
+.button-done{
+	max-width: 50px;
+}
+.button-delete{
+	max-width: 55px;
+}
+.status{
+	margin-top: 2%;
+	font-size: 2.2vh;
+}
+.tasks{
+	max-height: 87vh;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
